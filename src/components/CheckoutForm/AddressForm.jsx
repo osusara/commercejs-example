@@ -68,12 +68,12 @@ const AddressForm = ({ checkoutToken, next }) => {
           (data) => next({ ...data, shippingCountry, shippingSubdivision, shippingOption })
         )}>
           <Grid container spacing={3}>
-            <CustomTextField name="firstName" defaultValue="Ex: John" label="First name" />
-            <CustomTextField name="lastName" defaultValue="Ex: Doe" label="Last name" />
-            <CustomTextField name="email" defaultValue="Ex: someone@example.com" label="Email address" />
-            <CustomTextField name="address" defaultValue="Ex: Main Street" label="Address" />
-            <CustomTextField name="city" defaultValue="Ex: London" label="City" />
-            <CustomTextField name="postalCode" defaultValue="Ex: 10101" label="Postal code" />
+            <CustomTextField name="firstName" label="First name" />
+            <CustomTextField name="lastName" label="Last name" />
+            <CustomTextField name="email" label="Email address" />
+            <CustomTextField name="address" label="Address" />
+            <CustomTextField name="city" label="City" />
+            <CustomTextField name="postalCode" label="Postal code" />
 
             <Grid item xs={12} sm={6}>
               <InputLabel>Shipping country</InputLabel>

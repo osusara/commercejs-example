@@ -10,7 +10,7 @@ const CustomTextField = ({ name, label, defaultValue }) => {
       <Controller
         as={TextField}
         control={control}
-        defaultValue={defaultValue}
+        defaultValue=""
         fullWidth
         name={name}
         label={label}
